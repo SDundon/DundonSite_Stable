@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="theme" content="hugo-academic">
+  <meta name="generator" content="Hugo 0.42.1" />
+  <meta name="author" content="Sam Dundon, PhD">
+
+  
+  
+  
+  
+    
+      
+    
+  
+  <meta name="description" content="Animal, fungal, and amoeboid cells assemble an actomyosin ring from conserved proteins that constricts the cleavage furrow during cytokinesis at the end of the cell cycle. Many studies have examined the physical forces during contractile ring constriction, but little is known about the mechanisms that trigger ring constriction at the proper time. Prior work on the fission yeast Schizosaccharomyces pombe suggested that a checkpoint regulates constriction, but the molecular components and mechanisms of this checkpoint are unclear.&lt;br&gt;&lt;br&gt;The bgs1-191 strain with a temperature sensitive mutation in the gene for β-glucan synthase forms a contractile ring that fails to constrict at 36°C, consistent with activation of a constriction checkpoint. However, we find that the β-glucan synthase 1 D277N mutation, reported as the causative mutation in this strain, is insufficient to elicit this phenotype. Instead, rings constrict very slowly in the presence of the D277N mutation as well as in the other two published temperature-sensitive Bgs1 mutants.
+We used whole-genome sequencing and identified more than 250 mutations likely resulting from chemical mutagenesis in the original bgs1-191 strain. The most intriguing of these was a S338N mutation in the γ-tubulin complex protein Mto2. Cells carrying this mutation in a wild-type background were normal at 25°C and grew normally on solid medium at 36°C. However, 4-33% of mto2 S338N cells built cytokinetic rings that failed to constrict at 36°C, suggesting this mutation causes the ring constriction phenotype reported for the bgs1-191 strain. We also generated a Bgs1 D277N mutant in a wild-type background. Cells carrying both the Bgs1 and Mto2 mutations have growth and cytokinesis defects resembling the original bgs1-191 strain, suggesting the other mutations we found do not contribute to the phenotype.&lt;br&gt;&lt;br&gt;The mto2 S338N cells differ from mto2Δ cells in four ways: (1) only 0-1% of mto2Δ cells failed to constrict their contractile rings; (2) mto2 S338N cells, but not mto2Δ cells, have a defect in size-sensing, because cells that failed to constrict their contractile rings initiated mitosis when they were 4.5 μm shorter, on average, than cells with rings that successfully constricted; (3) 30-47% of mto2Δ cells had a curved phenotype shown by only 2-4% of mto2 S338N cells; and (4) 3% of mto2Δ divisions produced one binucleate and one anucleate daughter at the end of cytokinesis, which we never observed in mto2 S338N mutant cells. Therefore, the mto2 S338N phenotype is distinct from complete loss of Mto2 function.&lt;br&gt;&lt;br&gt;Mto2 S338 is located in a serine-rich region that is phosphorylated in a cell cycle-dependent manner. We therefore constructed a Mto2 S338C mutant to determine whether cytokinesis is compromised due to altered phospho-regulation. Intriguingly, cytokinesis proceeds as normal in mto2 S338C cells. Therefore, the S338N mutation causes some other defect in the Mto2 protein that compromises cytokinesis, potentially by altering protein-protein interactions essential for γ-tubulin complex function.&lt;br&gt;&lt;br&gt;We believe that the mto2 S338N mutation was missed in the bgs1-191 strain primarily due to the lack of a clear temperature-sensitive defect on solid medium. Consistent with previous work suggesting that Mto2 is not involved in spindle pole body microtubule nucleation, nuclei successfully divide in the Mto2 mutant cells. Therefore, actomyosin ring arrest in mto2 S338N mutant cells is not due to checkpoint signaling from defects in mitotic spindle formation and nuclear separation. Mto2 has been implicated in the construction of the post-anaphase array of microtubules, which forms at the cell equator during cytokinesis. Our findings suggest that the microtubule cytoskeleton has a role in promoting normal actomyosin ring constriction in S. pombe.">
+
+  
+  <link rel="alternate" hreflang="en-us" href="SDundon.github.io/talk/2018_grc/">
+
+  
+
+
+  
+
+  
+  
+  <meta name="theme-color" content="#0095eb">
+  
+  
+  
+  
+    
+  
+  
+    
+    
+      
+        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+      
+    
+  
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha512-6MXa8B6uaO18Hid6blRMetEIoPqHf7Ux1tnyIQdpt9qI5OACx7C+O3IVTr98vwGnlcg0LOLa02i9Y1HpVhlfiw==" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
+  
+  
+  
+  
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Montserrat:400,700%7cRoboto:400,400italic,700%7cRoboto&#43;Mono">
+  
+  <link rel="stylesheet" href="/SDundon.github.io/styles.css">
+  
+
+  
+    <script>
+      window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+      ga('create', 'UA-121871464-1', 'auto');
+      
+      ga('require', 'eventTracker');
+      ga('require', 'outboundLinkTracker');
+      ga('require', 'urlChangeTracker');
+      ga('send', 'pageview');
+    </script>
+    <script async src="//www.google-analytics.com/analytics.js"></script>
+    
+    <script async src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js" integrity="sha512-HUmooslVKj4m6OBu0OgzjXXr+QuFYy/k7eLI5jdeEy/F4RSgMn6XRWRGkFi5IFaFgy7uFTkegp3Z0XnJf3Jq+g==" crossorigin="anonymous"></script>
+    
+  
+
+  
+  <link rel="alternate" href="SDundon.github.io/index.xml" type="application/rss+xml" title="Sam Dundon">
+  <link rel="feed" href="SDundon.github.io/index.xml" type="application/rss+xml" title="Sam Dundon">
+  
+
+  <link rel="manifest" href="/SDundon.github.io/site.webmanifest">
+  <link rel="icon" type="image/png" href="/SDundon.github.io/img/icon.png">
+  <link rel="apple-touch-icon" type="image/png" href="/SDundon.github.io/img/icon-192.png">
+
+  <link rel="canonical" href="SDundon.github.io/talk/2018_grc/">
+
+  <meta property="twitter:card" content="summary_large_image">
+  
+  <meta property="twitter:site" content="@serdundon">
+  <meta property="twitter:creator" content="@serdundon">
+  
+  <meta property="og:site_name" content="Sam Dundon">
+  <meta property="og:url" content="SDundon.github.io/talk/2018_grc/">
+  <meta property="og:title" content="The fission yeast γ-tubulin complex protein Mto2 plays a role in regulating actomyosin ring constriction | Sam Dundon">
+  <meta property="og:description" content="Animal, fungal, and amoeboid cells assemble an actomyosin ring from conserved proteins that constricts the cleavage furrow during cytokinesis at the end of the cell cycle. Many studies have examined the physical forces during contractile ring constriction, but little is known about the mechanisms that trigger ring constriction at the proper time. Prior work on the fission yeast Schizosaccharomyces pombe suggested that a checkpoint regulates constriction, but the molecular components and mechanisms of this checkpoint are unclear.&lt;br&gt;&lt;br&gt;The bgs1-191 strain with a temperature sensitive mutation in the gene for β-glucan synthase forms a contractile ring that fails to constrict at 36°C, consistent with activation of a constriction checkpoint. However, we find that the β-glucan synthase 1 D277N mutation, reported as the causative mutation in this strain, is insufficient to elicit this phenotype. Instead, rings constrict very slowly in the presence of the D277N mutation as well as in the other two published temperature-sensitive Bgs1 mutants.
+We used whole-genome sequencing and identified more than 250 mutations likely resulting from chemical mutagenesis in the original bgs1-191 strain. The most intriguing of these was a S338N mutation in the γ-tubulin complex protein Mto2. Cells carrying this mutation in a wild-type background were normal at 25°C and grew normally on solid medium at 36°C. However, 4-33% of mto2 S338N cells built cytokinetic rings that failed to constrict at 36°C, suggesting this mutation causes the ring constriction phenotype reported for the bgs1-191 strain. We also generated a Bgs1 D277N mutant in a wild-type background. Cells carrying both the Bgs1 and Mto2 mutations have growth and cytokinesis defects resembling the original bgs1-191 strain, suggesting the other mutations we found do not contribute to the phenotype.&lt;br&gt;&lt;br&gt;The mto2 S338N cells differ from mto2Δ cells in four ways: (1) only 0-1% of mto2Δ cells failed to constrict their contractile rings; (2) mto2 S338N cells, but not mto2Δ cells, have a defect in size-sensing, because cells that failed to constrict their contractile rings initiated mitosis when they were 4.5 μm shorter, on average, than cells with rings that successfully constricted; (3) 30-47% of mto2Δ cells had a curved phenotype shown by only 2-4% of mto2 S338N cells; and (4) 3% of mto2Δ divisions produced one binucleate and one anucleate daughter at the end of cytokinesis, which we never observed in mto2 S338N mutant cells. Therefore, the mto2 S338N phenotype is distinct from complete loss of Mto2 function.&lt;br&gt;&lt;br&gt;Mto2 S338 is located in a serine-rich region that is phosphorylated in a cell cycle-dependent manner. We therefore constructed a Mto2 S338C mutant to determine whether cytokinesis is compromised due to altered phospho-regulation. Intriguingly, cytokinesis proceeds as normal in mto2 S338C cells. Therefore, the S338N mutation causes some other defect in the Mto2 protein that compromises cytokinesis, potentially by altering protein-protein interactions essential for γ-tubulin complex function.&lt;br&gt;&lt;br&gt;We believe that the mto2 S338N mutation was missed in the bgs1-191 strain primarily due to the lack of a clear temperature-sensitive defect on solid medium. Consistent with previous work suggesting that Mto2 is not involved in spindle pole body microtubule nucleation, nuclei successfully divide in the Mto2 mutant cells. Therefore, actomyosin ring arrest in mto2 S338N mutant cells is not due to checkpoint signaling from defects in mitotic spindle formation and nuclear separation. Mto2 has been implicated in the construction of the post-anaphase array of microtubules, which forms at the cell equator during cytokinesis. Our findings suggest that the microtubule cytoskeleton has a role in promoting normal actomyosin ring constriction in S. pombe.">
+  <meta property="og:locale" content="en-us">
+  
+  <meta property="article:published_time" content="2018-01-01T00:00:00-05:00">
+  
+  <meta property="article:modified_time" content="2018-01-01T00:00:00-05:00">
+  
+
+  
+  
+  <title>The fission yeast γ-tubulin complex protein Mto2 plays a role in regulating actomyosin ring constriction | Sam Dundon</title>
+
+</head>
+<body id="top" data-spy="scroll" data-target="#toc" data-offset="71" >
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navbar-main">
+  <div class="container">
+
+    
+    <div class="navbar-header">
+      
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+              data-target=".navbar-collapse" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      
+      <a class="navbar-brand" href="/SDundon.github.io/"><img src="/SDundon.github.io/img/Home_Img/Logo.jpg" alt="Sam Dundon"></a>
+    </div>
+
+    
+    <div class="collapse navbar-collapse">
+
+      
+      
+      <ul class="nav navbar-nav navbar-right">
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/SDundon.github.io/#about">
+            
+            <span>Home</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/SDundon.github.io/#project">
+            
+            <span>Current Research</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/SDundon.github.io/#publications_selected">
+            
+            <span>Publications</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/SDundon.github.io/#microscopy">
+            
+            <span>Microscopy</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/SDundon.github.io/#talks">
+            
+            <span>Presentations</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/SDundon.github.io/#contact">
+            
+            <span>Contact</span>
+            
+          </a>
+        </li>
+
+        
+        
+      
+
+      
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+<div class="pub" itemscope itemtype="http://schema.org/Event">
+
+  
+
+
+  <div class="article-container">
+
+    <div class="pub-title">
+      <h1 itemprop="name">The fission yeast γ-tubulin complex protein Mto2 plays a role in regulating actomyosin ring constriction</h1>
+      <span class="pub-authors" itemprop="author">
+        
+        SER Dundon, TD Pollard
+        
+      </span>
+      <span class="pull-right">
+        
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    <li>
+      <a class="twitter"
+         href="https://twitter.com/intent/tweet?text=The%20fission%20yeast%20%ce%b3-tubulin%20complex%20protein%20Mto2%20plays%20a%20role%20in%20regulating%20actomyosin%20ring%20constriction&amp;url=SDundon.github.io%2ftalk%2f2018_grc%2f"
+         target="_blank" rel="noopener">
+        <i class="fa fa-twitter"></i>
+      </a>
+    </li>
+    <li>
+      <a class="facebook"
+         href="https://www.facebook.com/sharer.php?u=SDundon.github.io%2ftalk%2f2018_grc%2f"
+         target="_blank" rel="noopener">
+        <i class="fa fa-facebook"></i>
+      </a>
+    </li>
+    <li>
+      <a class="linkedin"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=SDundon.github.io%2ftalk%2f2018_grc%2f&amp;title=The%20fission%20yeast%20%ce%b3-tubulin%20complex%20protein%20Mto2%20plays%20a%20role%20in%20regulating%20actomyosin%20ring%20constriction"
+         target="_blank" rel="noopener">
+        <i class="fa fa-linkedin"></i>
+      </a>
+    </li>
+    <li>
+      <a class="weibo"
+         href="http://service.weibo.com/share/share.php?url=SDundon.github.io%2ftalk%2f2018_grc%2f&amp;title=The%20fission%20yeast%20%ce%b3-tubulin%20complex%20protein%20Mto2%20plays%20a%20role%20in%20regulating%20actomyosin%20ring%20constriction"
+         target="_blank" rel="noopener">
+        <i class="fa fa-weibo"></i>
+      </a>
+    </li>
+    <li>
+      <a class="email"
+         href="mailto:?subject=The%20fission%20yeast%20%ce%b3-tubulin%20complex%20protein%20Mto2%20plays%20a%20role%20in%20regulating%20actomyosin%20ring%20constriction&amp;body=SDundon.github.io%2ftalk%2f2018_grc%2f">
+        <i class="fa fa-envelope"></i>
+      </a>
+    </li>
+  </ul>
+</div>
+
+
+      </span>
+    </div>
+
+    
+      <h3>Abstract</h3>
+      <p class="pub-abstract" itemprop="text">Animal, fungal, and amoeboid cells assemble an actomyosin ring from conserved proteins that constricts the cleavage furrow during cytokinesis at the end of the cell cycle. Many studies have examined the physical forces during contractile ring constriction, but little is known about the mechanisms that trigger ring constriction at the proper time. Prior work on the fission yeast Schizosaccharomyces pombe suggested that a checkpoint regulates constriction, but the molecular components and mechanisms of this checkpoint are unclear.<br><br>The bgs1-191 strain with a temperature sensitive mutation in the gene for β-glucan synthase forms a contractile ring that fails to constrict at 36°C, consistent with activation of a constriction checkpoint. However, we find that the β-glucan synthase 1 D277N mutation, reported as the causative mutation in this strain, is insufficient to elicit this phenotype. Instead, rings constrict very slowly in the presence of the D277N mutation as well as in the other two published temperature-sensitive Bgs1 mutants.
+We used whole-genome sequencing and identified more than 250 mutations likely resulting from chemical mutagenesis in the original bgs1-191 strain. The most intriguing of these was a S338N mutation in the γ-tubulin complex protein Mto2. Cells carrying this mutation in a wild-type background were normal at 25°C and grew normally on solid medium at 36°C. However, 4-33% of mto2 S338N cells built cytokinetic rings that failed to constrict at 36°C, suggesting this mutation causes the ring constriction phenotype reported for the bgs1-191 strain. We also generated a Bgs1 D277N mutant in a wild-type background. Cells carrying both the Bgs1 and Mto2 mutations have growth and cytokinesis defects resembling the original bgs1-191 strain, suggesting the other mutations we found do not contribute to the phenotype.<br><br>The mto2 S338N cells differ from mto2Δ cells in four ways: (1) only 0-1% of mto2Δ cells failed to constrict their contractile rings; (2) mto2 S338N cells, but not mto2Δ cells, have a defect in size-sensing, because cells that failed to constrict their contractile rings initiated mitosis when they were 4.5 μm shorter, on average, than cells with rings that successfully constricted; (3) 30-47% of mto2Δ cells had a curved phenotype shown by only 2-4% of mto2 S338N cells; and (4) 3% of mto2Δ divisions produced one binucleate and one anucleate daughter at the end of cytokinesis, which we never observed in mto2 S338N mutant cells. Therefore, the mto2 S338N phenotype is distinct from complete loss of Mto2 function.<br><br>Mto2 S338 is located in a serine-rich region that is phosphorylated in a cell cycle-dependent manner. We therefore constructed a Mto2 S338C mutant to determine whether cytokinesis is compromised due to altered phospho-regulation. Intriguingly, cytokinesis proceeds as normal in mto2 S338C cells. Therefore, the S338N mutation causes some other defect in the Mto2 protein that compromises cytokinesis, potentially by altering protein-protein interactions essential for γ-tubulin complex function.<br><br>We believe that the mto2 S338N mutation was missed in the bgs1-191 strain primarily due to the lack of a clear temperature-sensitive defect on solid medium. Consistent with previous work suggesting that Mto2 is not involved in spindle pole body microtubule nucleation, nuclei successfully divide in the Mto2 mutant cells. Therefore, actomyosin ring arrest in mto2 S338N mutant cells is not due to checkpoint signaling from defects in mitotic spindle formation and nuclear separation. Mto2 has been implicated in the construction of the post-anaphase array of microtubules, which forms at the cell equator during cytokinesis. Our findings suggest that the microtubule cytoskeleton has a role in promoting normal actomyosin ring constriction in S. pombe.</p>
+    
+
+    <div class="row">
+      <div class="col-sm-1"></div>
+      <div class="col-sm-10">
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 pub-row-heading">Date</div>
+          <div class="col-xs-12 col-sm-9" itemprop="datePublished">
+            
+            Aug 14, 2018
+            <div class="talk-time">
+              
+                9:00 PM
+                
+              
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-1"></div>
+    </div>
+    <div class="visible-xs space-below"></div>
+
+    <div class="row">
+      <div class="col-sm-1"></div>
+      <div class="col-sm-10">
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 pub-row-heading">Event</div>
+          <div class="col-xs-12 col-sm-9">
+            <a href="https://www.grc.org/plant-and-microbial-cytoskeleton-conference/2018/" target="_blank" rel="noopener">
+            Plant and Microbial Cytoskeleton GRC 2018 - Selected Talk
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-1"></div>
+    </div>
+    <div class="visible-xs space-below"></div>
+
+    
+    <div class="row">
+      <div class="col-sm-1"></div>
+      <div class="col-sm-10">
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 pub-row-heading">Location</div>
+          <div class="col-xs-12 col-sm-9">Andover, NH, United States</div>
+        </div>
+      </div>
+      <div class="col-sm-1"></div>
+    </div>
+    <div class="visible-xs space-below"></div>
+    
+
+    
+
+    <div class="space-below"></div>
+
+    <div class="article-style">
+      
+    </div>
+
+    
+
+
+  </div>
+</div>
+
+
+
+<footer class="site-footer">
+  <div class="container">
+    <p class="powered-by">
+
+      &copy; 2018 &middot; 
+
+      Powered by the
+      <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+      <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+      <span class="pull-right" aria-hidden="true">
+        <a href="#" id="back_to_top">
+          <span class="button_icon">
+            <i class="fa fa-chevron-up fa-2x"></i>
+          </span>
+        </a>
+      </span>
+
+    </p>
+  </div>
+</footer>
+
+
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close btn-large" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Cite</h4>
+      </div>
+      <div>
+        <pre><code class="modal-body tex"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-primary btn-outline js-copy-cite" href="#" target="_blank">
+          <i class="fa fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-primary btn-outline js-download-cite" href="#" target="_blank">
+          <i class="fa fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+
+    
+    
+
+    
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" integrity="sha512-3P8rXCuGJdNZOnUx/03c1jOTnMn3rP63nBip5gOP2qmUh5YAdVAvFZ1E+QLZZbC1rtMrQb+mah3AfYW11RUrWA==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.3/imagesloaded.pkgd.min.js" integrity="sha512-umsR78NN0D23AzgoZ11K7raBD+R6hqKojyBZs1w8WvYlsI+QuKRGBx3LFCwhatzBunCjDuJpDHwxD13sLMbpRA==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha512-iztkobsvnjKfAtTNdHkGVjAYTrrtlC7mGp/54c40wowO7LhURYl3gVzzcEqGl/qKXQltJ2HwMrdLcNUdo+N/RQ==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.4/isotope.pkgd.min.js" integrity="sha512-VDBOIlDbuC4VWxGJNmuFRQ0Li0SKkDpmGyuhAG5LTDLd/dJ/S0WMVxriR2Y+CyPL5gzjpN4f/6iqWVBJlht0tQ==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
+    
+    
+    <script src="/SDundon.github.io/js/hugo-academic.js"></script>
+    
+
+    
+    
+      
+      
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" integrity="sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw=" crossorigin="anonymous"></script>
+      
+
+      
+
+      
+
+      <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({ tex2jax: { inlineMath: [['$','$'], ['\\(','\\)']] } });
+    </script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS_CHTML" integrity="sha512-tOav5w1OjvsSJzePRtt2uQPFwBoHt1VZcUq8l8nm5284LEKE9FSJBQryzMBzHxY5P0zRdNqEcpLIRVYFNgu1jw==" crossorigin="anonymous"></script>
+    
+    
+
+  </body>
+</html>
+

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Recent &amp; Upcoming Presentations on Sam Dundon</title>
+    <link>SDundon.github.io/talk/</link>
+    <description>Recent content in Recent &amp; Upcoming Presentations on Sam Dundon</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 -0500</lastBuildDate>
+    
+	<atom:link href="SDundon.github.io/talk/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Astral microtubules regulate Rho activity and actomyosin ring constriction in fission yeast</title>
+      <link>SDundon.github.io/talk/2019_ascb/</link>
+      <pubDate>Fri, 10 Jan 2020 00:00:00 -0500</pubDate>
+      
+      <guid>SDundon.github.io/talk/2019_ascb/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The fission yeast γ-tubulin complex protein Mto2 plays a role in regulating cytokinetic ring constriction</title>
+      <link>SDundon.github.io/talk/2018_ascb/</link>
+      <pubDate>Fri, 10 Jan 2020 00:00:00 -0500</pubDate>
+      
+      <guid>SDundon.github.io/talk/2018_ascb/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Astral microtubules regulate Rho activity and cytokinesis in fission yeast</title>
+      <link>SDundon.github.io/talk/2019_uvm/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 -0500</pubDate>
+      
+      <guid>SDundon.github.io/talk/2019_uvm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The fission yeast γ-tubulin complex protein Mto2 plays a role in regulating actomyosin ring constriction</title>
+      <link>SDundon.github.io/talk/2018_grc/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 -0500</pubDate>
+      
+      <guid>SDundon.github.io/talk/2018_grc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The fission yeast γ-tubulin regulatory complex Mto1/Mto2 plays a role in actomyosin ring constriction</title>
+      <link>SDundon.github.io/talk/2019_bamm/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 -0500</pubDate>
+      
+      <guid>SDundon.github.io/talk/2019_bamm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A novel role of Wee1 in regulating actomyosin ring constriction</title>
+      <link>SDundon.github.io/talk/2017_ascb_dundon/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 -0500</pubDate>
+      
+      <guid>SDundon.github.io/talk/2017_ascb_dundon/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Clustered nuclei maintain autonomy and nucleocytoplasmic ratio control in a syncytium</title>
+      <link>SDundon.github.io/talk/2016_ecfg/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 -0500</pubDate>
+      
+      <guid>SDundon.github.io/talk/2016_ecfg/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cyclin transcription is impacted by nuclear positioning in a syncytium with asynchronous nuclear division</title>
+      <link>SDundon.github.io/talk/2014_ascb/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 -0500</pubDate>
+      
+      <guid>SDundon.github.io/talk/2014_ascb/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cyclin transcription is impacted by nuclear positioning in a syncytium with asynchronous nuclear division</title>
+      <link>SDundon.github.io/talk/2015_asilomar/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 -0500</pubDate>
+      
+      <guid>SDundon.github.io/talk/2015_asilomar/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Determining how cellular phase transitions partition the myotube cytoplasm</title>
+      <link>SDundon.github.io/talk/2017_ascb_smith/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 -0500</pubDate>
+      
+      <guid>SDundon.github.io/talk/2017_ascb_smith/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Nuclear position impacts cell cycle-dependent transcription.</title>
+      <link>SDundon.github.io/talk/2014_grc/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 -0500</pubDate>
+      
+      <guid>SDundon.github.io/talk/2014_grc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Nuclear-autonomus transcription contributes to syncytial organization.</title>
+      <link>SDundon.github.io/talk/2015_bamm/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 -0500</pubDate>
+      
+      <guid>SDundon.github.io/talk/2015_bamm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Regular spacing is not required for nuclear autonomy in multinucleate cells</title>
+      <link>SDundon.github.io/talk/2012_ascb/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 -0500</pubDate>
+      
+      <guid>SDundon.github.io/talk/2012_ascb/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

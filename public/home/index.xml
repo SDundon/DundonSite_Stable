@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Homes on Sam Dundon</title>
+    <link>SDundon.github.io/home/</link>
+    <description>Recent content in Homes on Sam Dundon</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Sun, 15 Oct 2017 00:00:00 -0400</lastBuildDate>
+    
+	<atom:link href="SDundon.github.io/home/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Welcome</title>
+      <link>SDundon.github.io/home/hero/</link>
+      <pubDate>Sun, 15 Oct 2017 00:00:00 -0400</pubDate>
+      
+      <guid>SDundon.github.io/home/hero/</guid>
+      <description>I am a passionate cell biologist, adventurous microscopist, and enthusiastic science communicator. Thank you for visiting!
+(function defer() { if (window.jQuery) { jQuery(document).ready(function(){ GetLatestReleaseInfo(); }); } else { setTimeout(function() { defer() }, 50); } })(); function GetLatestReleaseInfo() { $.getJSON(&#39;https://api.github.com/repos/gcushen/hugo-academic/tags&#39;).done(function (json) { let release = json[0]; // let downloadURL = release.zipball_url; $(&#39;#academic-release&#39;).text(&#39;Latest release &#39; + release.name); }); }  </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>SDundon.github.io/home/about/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0400</pubDate>
+      
+      <guid>SDundon.github.io/home/about/</guid>
+      <description>About Me I am a postdoctoral researcher studying cytokinetic regulation in the lab of Dr. Thomas Pollard at Yale University. I earned my PhD studying cell cycle regulation in a multinucleate fungus with Dr. Amy Gladfelter at Dartmouth.
+I am passionate about conducting and communicating science, as well as training others and being part of a multidisciplinary research team. I am fascinated by how the essential operations and functions of cells function in healthy organisms and how their alteration can cause disease.</description>
+    </item>
+    
+    <item>
+      <title>Current Research</title>
+      <link>SDundon.github.io/home/project/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0400</pubDate>
+      
+      <guid>SDundon.github.io/home/project/</guid>
+      <description>I am investigating mechanisms of cytokinetic regulation the fission yeast Schizosaccharomyces pombe. The final step of cell division is the physical separation of daughter cells by cytokinesis. This process is crucial for growth of all organisms. The cell cycle and cytokinesis must but must be properly regulated to enable growth and development as well as to prevent division errors. Cytokinetic failure leads to aberrant ploidy increases, which contribute to tumorigenesis.</description>
+    </item>
+    
+    <item>
+      <title>Publication Highlight</title>
+      <link>SDundon.github.io/home/publications_selected/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0400</pubDate>
+      
+      <guid>SDundon.github.io/home/publications_selected/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Microscopy</title>
+      <link>SDundon.github.io/home/microscopy/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0400</pubDate>
+      
+      <guid>SDundon.github.io/home/microscopy/</guid>
+      <description>A. gossypii Cdc12 RNA smFISH
+      A. gossypii labeled actin and nuclei
+      C2C12 myotube with labeled AchRα mRNA
+      C2C12 myoblast overexpressing labeled FXR1</description>
+    </item>
+    
+    <item>
+      <title>Recent Publications</title>
+      <link>SDundon.github.io/home/publications/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0400</pubDate>
+      
+      <guid>SDundon.github.io/home/publications/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Recent &amp; Upcoming Presentations</title>
+      <link>SDundon.github.io/home/talks/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0400</pubDate>
+      
+      <guid>SDundon.github.io/home/talks/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Funding</title>
+      <link>SDundon.github.io/home/funding/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0400</pubDate>
+      
+      <guid>SDundon.github.io/home/funding/</guid>
+      <description>I have earned funding from the following sources:
+   Year Source Type     2018-Present NIH Ruth L. Kirschstein NRSA Postdoctoral Fellowship   2014-2015 Dartmouth Neukom Institute Graduate Fellowship   2013-2014 NSF GK-12 Graduate Fellowship   2013 US Department of Education GAANN Graduate Fellowship   2010 University of Vermont Undergraduate Research Fellowship    </description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>SDundon.github.io/home/contact/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0400</pubDate>
+      
+      <guid>SDundon.github.io/home/contact/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
